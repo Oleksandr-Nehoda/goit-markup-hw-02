@@ -5,14 +5,12 @@
   --title-text-cl: #212121;
   --accent-text-cl: #2196f3;
   /* background colors */
-  --main-bg-cl: #ffffff;
-  --secondary-bg-cl: #e5e5e5;
+  --main-bg-cl: #F5F4FA;
   --dark-bg-cl: #2f303a;
 }
 body {
   font-family: var(--main-font);
   color: var(--main-text-cl);
-  background-color: var(--main-bg-cl);
   letter-spacing: 0.03em;
 }
 * {
@@ -32,9 +30,6 @@ body {
 }
 .logo-accent-bl {
   color: var(--title-text-cl);
-}
-.btn {
-  font-family: inherit;
 }
 .nav-link-main {
 font-weight: 500;
@@ -112,7 +107,7 @@ text-align: center;
 color: var(--title-text-cl);
 }
 .team{
-    background-color:#F5F4FA; ;
+background-color:var(--main-bg-cl); ;
 }
 .team-title{
 font-weight: 700;
@@ -121,4 +116,77 @@ line-height: 1.17em;
 text-align: center;
 color: var(--title-text-cl);
 }
+.team-name{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19em;
+text-align: center;
+color: var(--title-text-cl);
+}
+.team-profession{
+font-size: 16px;
+line-height: 1.19em;
+text-align: center;
+}
+.footer{
+background-color: var(--dark-bg-cl);
+}
+.logo-accent-wh{
+color: #ffffff;
+}
+.footer-addr-residential{
+font-style: normal;
+font-size: 14px;
+line-height: 1.71em;
+color: #FFFFFF;
+}
+.footer-cont-link{
+text-decoration: none;
+font-style: normal;
+font-size: 14px;
+line-height: 1.71em;
+color: rgba(255, 255, 255, 0.6);
+}
+.footer-cont-link:hover,
+.footer-cont-link:focus{
+color: var(--accent-text-cl);
+}
+     /* Page portfolio */
 
+.portfolio-btn-accent{
+font-family: 'Roboto';
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62em;
+text-align: center;
+color: #FFFFFF;
+background-color: var(--accent-text-cl);
+border-radius: 4px;
+cursor: pointer;
+}
+.portfolio-btn{
+font-family: 'Roboto';
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62em;
+text-align: center;
+color: var(--title-text-cl);
+background: var(--main-bg-cl);
+border-radius: 4px;
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus{
+color: #ffffff;
+background-color: var(--accent-text-cl);
+}
+.portfolio-card-title{
+font-weight: 700;
+font-size: 18px;
+line-height: 2em;
+letter-spacing: 0.06em;
+color: var(--title-text-cl);
+}
+.portfolio-card-set{
+font-size: 16px;
+line-height: 1.88em;
+}
