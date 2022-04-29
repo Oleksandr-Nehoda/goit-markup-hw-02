@@ -109,6 +109,9 @@ color: var(--title-text-cl);
 .team{
 background-color:var(--main-bg-cl); ;
 }
+.team-item{
+    background-color: #ffffff;
+}
 .team-title{
 font-weight: 700;
 font-size: 36px;
