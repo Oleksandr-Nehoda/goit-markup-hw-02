@@ -157,7 +157,7 @@ color: var(--accent-text-cl);
      /* Page portfolio */
 
 .portfolio-btn-accent{
-font-family: 'Roboto';
+font-family: 'Roboto', sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.62em;
@@ -168,7 +168,7 @@ border-radius: 4px;
 cursor: pointer;
 }
 .portfolio-btn{
-font-family: 'Roboto';
+font-family: 'Roboto', sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.62em;
@@ -176,6 +176,7 @@ text-align: center;
 color: var(--title-text-cl);
 background: var(--main-bg-cl);
 border-radius: 4px;
+cursor: pointer;
 }
 .portfolio-btn:hover,
 .portfolio-btn:focus{
