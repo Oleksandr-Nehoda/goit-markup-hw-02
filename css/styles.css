@@ -13,7 +13,7 @@ body {
   color: var(--main-text-cl);
   letter-spacing: 0.03em;
 }
-* {
+ul {
   list-style: none;
 }
 .logo,
@@ -63,6 +63,7 @@ body {
 }
 .hero {
   background-color: var(--dark-bg-cl);
+  text-align: center;
 }
 .hero-title {
   font-weight: 900;
@@ -74,13 +75,10 @@ body {
   color: #ffffff;
 }
 .hero-btn {
-  font-family: 'Roboto', sans-serif;
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88em;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
   background-color: var(--accent-text-cl);
@@ -111,6 +109,7 @@ body {
 }
 .team-item {
   background-color: #ffffff;
+  text-align: center;
 }
 .team-title {
   font-weight: 700;
@@ -123,13 +122,10 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19em;
-  text-align: center;
   color: var(--title-text-cl);
 }
 .team-profession {
-  font-size: 16px;
   line-height: 1.19em;
-  text-align: center;
 }
 .footer {
   background-color: var(--dark-bg-cl);
@@ -137,15 +133,16 @@ body {
 .logo-accent-wh {
   color: #ffffff;
 }
-.footer-addr-residential {
+.footer-addr {
   font-style: normal;
+}
+.footer-addr-residential {
   font-size: 14px;
   line-height: 1.71em;
   color: #ffffff;
 }
 .footer-cont-link {
   text-decoration: none;
-  font-style: normal;
   font-size: 14px;
   line-height: 1.71em;
   color: rgba(255, 255, 255, 0.6);
@@ -157,7 +154,7 @@ body {
 /* Page portfolio */
 
 .portfolio-btn-active {
-  font-family: 'Roboto', sans-serif;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62em;
@@ -168,7 +165,7 @@ body {
   cursor: pointer;
 }
 .portfolio-btn {
-  font-family: 'Roboto', sans-serif;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62em;
@@ -191,7 +188,6 @@ body {
   color: var(--title-text-cl);
 }
 .portfolio-card-set {
-  font-size: 16px;
   line-height: 1.88em;
 }
 .visually-hidden {
